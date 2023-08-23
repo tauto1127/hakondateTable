@@ -1,229 +1,202 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8" />
 </head>
+
 <body>
     <div class="tableBorder">
-    <table>
-        <tr class="energy">
-            <td>エネルギー(%)</td>
-            <td>=</td>
-            <td>
-            <div>
-                <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内エネルギーの合計値</span>
-                <span style="padding: 0 10px;">学校給食エネルギー</span>
-            </div>
-            <p>* 100</p>
-            </td>
-        </tr>
-        <tr class="proteinTr">
-        <td>たんぱく質(%)</td>
-            <td>=</td>
-            <td>
-            <div>
-                <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内たんぱく質の合計値</span>
-                <span style="padding: 0 10px;">0.165 * 学校給食たんぱく質摂取基準 / 4</span>
-            </div>
-            <p>* 100</p>
-            </td>
-        </tr>
-        <tr class="sisitu">
-            <td>脂質(%)</td>
+        <table>
+            <tr class="energy">
+                <td>エネルギー(%)</td>
                 <td>=</td>
                 <td>
-                <div>
-                    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                    <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内脂質の合計値</span>
-                    <span style="padding: 0 10px;">0.25 * 学校給食脂質摂取基準 / 9</span>
-                </div>
-                <p>* 100</p>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内エネルギーの合計値</span>
+                            <span style="padding: 0 10px;">学校給食エネルギー</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="proteinTr">
+                <td>たんぱく質(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内たんぱく質の合計値</span>
+                            <span style="padding: 0 10px;">0.165 × 学校給食たんぱく質摂取基準 / 4</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="sisitu">
+                <td>脂質(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内脂質の合計値</span>
+                            <span style="padding: 0 10px;">0.25 × 学校給食脂質摂取基準 / 9</span>
+                    </div>
+                    <p>× 100</p>
                 </td>
             </tr>
             <tr class="aoi">
                 <td>ミネラル(%)</td>
-                    <td>=</td>
-                    <td>
+                <td>=</td>
+                <td>
                     <div>
-                        <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                        <span style="padding: 0 10px; border-bottom: 1px solid #000000;">カルシウム(%) + マグネシウム(%) + 鉄(%) + 亜鉛(%)</span>
-                        <span style="padding: 0 10px;">4</span>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">カルシウム(%) + マグネシウム(%) + 鉄(%)
+                                + 亜鉛(%)</span>
+                            <span style="padding: 0 10px;">4</span>
                     </div>
-                    </td>
-                </tr>
-        <tr class="aoi">
-                    <td>カルシウム(%)</td>
-                        <td>=</td>
-                        <td>
-                        <div>
-                            <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                </td>
+            </tr>
+            <tr class="aoi">
+                <td>カルシウム(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
                             <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内カルシウムの合計値</span>
                             <span style="padding: 0 10px;">学校給食カルシウム摂取基準</span>
-                        </div>
-                        <p>* 100</p>
-                        </td>
-                    </tr>
-                    <tr class="aoi">
-                        <td>マグネシウム(%)</td>
-                            <td>=</td>
-                            <td>
-                            <div>
-                                <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内マグネシウムの合計値</span>
-                                <span style="padding: 0 10px;">学校給食マグネシウム接種基準</span>
-                            </div>
-                            <p>* 100</p>
-                            </td>
-                        </tr>
-                        <tr class="aoi">
-                            <td>鉄(%)</td>
-                                <td>=</td>
-                                <td>
-                                <div>
-                                    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                    <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内鉄の合計値</span>
-                                    <span style="padding: 0 10px;">学校給食鉄接種基準</span>
-                                </div>
-                                <p>* 100</p>
-                                </td>
-                            </tr>
-                            <tr class="aoi">
-                                <td>亜鉛(%)</td>
-                                    <td>=</td>
-                                    <td>
-                                    <div>
-                                        <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                        <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内亜鉛の合計値</span>
-                                        <span style="padding: 0 10px;">学校給食亜鉛接種基準</span>
-                                    </div>
-                                    <p>* 100</p>
-                                    </td>
-                                </tr>
-                                <tr class="bitamin">
-                                    <td>ビタミン(%)</td>
-                                        <td>=</td>
-                                        <td>
-                                        <div>
-                                            <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;" class="つめる">レチノール(%) + ビタミンB1(%) + ビタミンB2(%) + ビタミンC(%)></span>
-                                            <span style="padding: 0 10px;">4</span>
-                                        </div>
-                                        <p class="つめる">* 100</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="bitamin">
-                                        <td>レチノール(%)</td>
-                                            <td>=</td>
-                                            <td>
-                                            <div>
-                                                <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                                <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内レチノールの合計値</span>
-                                                <span style="padding: 0 10px;">学校給食レチノール接種基準</span>
-                                            </div>
-                                            <p>* 100</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="bitamin">
-                                            <td>ビタミンB1(%)</td>
-                                                <td>=</td>
-                                                <td>
-                                                <div>
-                                                    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                                    <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内ビタミンB1の合計値</span>
-                                                    <span style="padding: 0 10px;">学校給食ビタミンB1接種基準</span>
-                                                </div>
-                                                <p>* 100</p>
-                                                </td>
-                                            </tr>
-                                            <tr class="bitamin">
-                                                <td>ビタミンB2(%)</td>
-                                                    <td>=</td>
-                                                    <td>
-                                                    <div>
-                                                        <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                                        <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内ビタミンB2の合計値</span>
-                                                        <span style="padding: 0 10px;">学校給食ビタミンB2接種基準</span>
-                                                    </div>
-                                                    <p>* 100</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="bitamin">
-                                                    <td>ビタミンC(%)</td>
-                                                        <td>=</td>
-                                                        <td>
-                                                        <div>
-                                                            <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内ビタミンCの合計値</span>
-                                                            <span style="padding: 0 10px;">学校給食ビタミンC接種基準</span>
-                                                        </div>
-                                                        <p>* 100</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="炭水化物">
-                                                        <td>炭水化物(%)</td>
-                                                            <td>=</td>
-                                                            <td>
-                                                            <div>
-                                                                <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
-                                                                <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内炭水化物の合計値</span>
-                                                                <span style="padding: 0 10px;">学校給食炭水化物接種基準</span>
-                                                            </div>
-                                                            <p>* 100</p>
-                                                            </td>
-                                                        </tr>
-                                            
-                                    
-                            
-    </table>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="aoi">
+                <td>マグネシウム(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内マグネシウムの合計値</span>
+                            <span style="padding: 0 10px;">学校給食マグネシウム接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="aoi">
+                <td>鉄(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内鉄の合計値</span>
+                            <span style="padding: 0 10px;">学校給食鉄接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="aoi">
+                <td>亜鉛(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内亜鉛の合計値</span>
+                            <span style="padding: 0 10px;">学校給食亜鉛接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="bitamin">
+                <td>ビタミン(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;" class="つめる">レチノール(%) +
+                                ビタミンB1(%) + ビタミンB2(%) + ビタミンC(%)</span>
+                            <span style="padding: 0 10px;">4</span>
+                    </div>
+                    <p class="つめる">× 100</p>
+                </td>
+            </tr>
+            <tr class="bitamin">
+                <td>レチノール(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内レチノールの合計値</span>
+                            <span style="padding: 0 10px;">学校給食レチノール接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="bitamin">
+                <td>ビタミンB1(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内ビタミンB1の合計値</span>
+                            <span style="padding: 0 10px;">学校給食ビタミンB1接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="bitamin">
+                <td>ビタミンB2(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内ビタミンB2の合計値</span>
+                            <span style="padding: 0 10px;">学校給食ビタミンB2接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="bitamin">
+                <td>ビタミンC(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内ビタミンCの合計値</span>
+                            <span style="padding: 0 10px;">学校給食ビタミンC接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+            <tr class="炭水化物">
+                <td>炭水化物(%)</td>
+                <td>=</td>
+                <td>
+                    <div>
+                        <span
+                            style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center;">
+                            <span style="padding: 0 10px; border-bottom: 1px solid #000000;">献立内炭水化物の合計値</span>
+                            <span style="padding: 0 10px;">学校給食炭水化物接種基準</span>
+                    </div>
+                    <p>× 100</p>
+                </td>
+            </tr>
+
+
+
+        </table>
     </div>
 </body>
+
 </html>
-<style>
-    * {
-    font-family: "RoundedMplus1c-Light";
-    text-align: center;
-}
-p, div {
-        display: inline-block;
-    }
-.energy{
-    background-color: white;
-}
-.proteinTr{
-    background-color: rgb(235, 202, 213);
-}
-.sisitu{
-    background-color: rgb(253, 243, 208);
-}
-.aoi{
-    background-color: rgb(224, 234, 247);
-}
-.bitamin{
-    background-color: rgb(249, 230, 217);
-}
-.炭水化物{
-    background-color: rgb(228, 239, 221);
-}
-table{
-    border-collapse: collapse;
-}
-.tableBorder{
-    border: 4px rgb(255,171,64) solid;
-    border-radius: 10px;
-    text-align: center;
-}
-.groove{
-    border: groove 5px;
-}
-.maruitable{
-    border: solid 4px #FFD700;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
-}
-.つめる{
-    font-size: 13px;
-}
-</style>
