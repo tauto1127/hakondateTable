@@ -56,3 +56,48 @@ text-align: center;
 .つめる {
 font-size: 13px;
 }
+
+.box{
+    margin       : auto;
+width        : 15px;
+height       : 15px;
+}
+.label{
+    font-size: 20px;
+    margin: 0px;
+}
+.labelCon{
+}
+.tableTitle{
+    font-size:small;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin: 0px;
+    background-color: rgb(255, 190, 112);
+}
+.nutTable{
+    border-bottom: solid 1.5px rgb(255, 190, 112);
+}
+.tableLabel{
+    margin-left: 50px;
+}
+.eneColor{
+    background-color: white;
+    border: solid 1px black;
+}
+.tanpakuColor{
+    background-color: rgb(235, 202, 212);
+}
+.sisituColor{
+    background-color: rgb(251, 243, 212);
+}
+.mineralColor{
+    background-color: rgb(224, 234, 246);
+}
+.bitaminColor{
+    background-color: rgb(249, 230, 217);
+}
+.tansuiColor{
+    background-color: rgb(229, 238, 221);
+}
