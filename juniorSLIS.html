@@ -2,6 +2,127 @@
 <html>
 <head>
 <meta charset="utf-8" />
-</head>
+<link href="style.css" rel="stylesheet">
 <body>
+    <div class="tableBorder">
+    <table>
+        <tr>
+            <td>エネルギー(kcal)</td>
+            <td>830</td>
+        </tr>
+        <tr class="proteinTr">
+          <td>たんぱく質(%)</td>
+          <td>学校給食による摂取エネルギー<br>全体の13～20％</td>  
+        </tr>
+        <tr class="sisitu">
+            <td>脂質(%)</td>
+            <td>学校給食による摂取エネルギー<br>全体の20～30％</td>
+        </tr>
+        <tr class="aoi">
+            <td width="230">ナトリウム[食塩相当量](g)   </td>
+            <td>2.5未満</td>
+        </tr>
+        <tr class="aoi">
+            <td>カルシウム(mg)</td>
+            <td>450</td>
+        </tr>
+        <tr class="aoi">
+            <td>マグネシウム(mg)</td>
+            <td>120</td>
+        </tr>
+        <tr class="aoi">
+            <td>鉄(mg)</td>
+            <td>4.5</td>
+        </tr class="aoi">
+        <tr class="bitamin">
+            <td>ビタミンA(μgRAE)</td>
+            <td>300</td>
+        </tr>
+        <tr class="bitamin">
+            <td>ビタミンB1(mg)</td>
+            <td>0.5</td>
+        </tr>
+        <tr class="bitamin">
+            <td>ビタミンB2(mg)</td>
+            <td>0.6</td>
+        </tr>
+        <tr class="bitamin">
+            <td>ビタミンC(mg)</td>
+            <td>35</td>
+        </tr>
+        <tr class="炭水化物">
+            <td>食物繊維(g)</td>
+            <td>7以上</td>
+        </tr>
+    </table>
+</div>
+<br>
+<table class="tableLabel">
+    <tr>
+    <td class="labelCon">
+        <div class="box eneColor"></div>
+        <p class="label">エネルギー</p>
+    </td>
+    <td>
+        <div class="box tanpakuColor"></div>
+        <p class="label">たんぱく質</p>
+    </td>
+    <td>
+        <div class="box sisituColor"></div>
+        <p class="label">脂質</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <div class="box mineralColor"></div>
+        <p class="label">ミネラル</p>
+    </td>
+    <td>
+        <div class="box bitaminColor"></div>
+        <p class="label">ビタミン</p>
+    </td>
+    <td>
+        <div class="box tansuiColor"></div>
+        <p class="label">炭水化物</p>
+    </td>
+    </tr>
+</table>
 </body>
+<style>
+    *{
+        text-align: start;
+    }
+    .box{
+        margin       : auto;
+  width        : 15px;
+  height       : 15px;
+    }
+    .label{
+        font-size: 22px;
+        margin: 0px;
+    }
+    .labelCon{
+    }
+    .tableLabel{
+        margin-left: 50px;
+    }
+    .eneColor{
+        background-color: white;
+        border: solid 1px black;
+    }
+    .tanpakuColor{
+        background-color: rgb(235, 202, 212);
+    }
+    .sisituColor{
+        background-color: rgb(251, 243, 212);
+    }
+    .mineralColor{
+        background-color: rgb(224, 234, 246);
+    }
+    .bitaminColor{
+        background-color: rgb(249, 230, 217);
+    }
+    .tansuiColor{
+        background-color: rgb(229, 238, 221);
+    }
+</style>

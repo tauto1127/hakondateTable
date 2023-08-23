@@ -1,0 +1,58 @@
+* {
+font-family: "RoundedMplus1c-Light";
+text-align: center;
+}
+
+p,
+div {
+display: inline-block;
+}
+
+.energy {
+background-color: white;
+}
+
+.proteinTr {
+background-color: rgb(235, 202, 213);
+}
+
+.sisitu {
+background-color: rgb(253, 243, 208);
+}
+
+.aoi {
+background-color: rgb(224, 234, 247);
+}
+
+.bitamin {
+background-color: rgb(249, 230, 217);
+}
+
+.炭水化物 {
+background-color: rgb(228, 239, 221);
+}
+
+table {
+border-collapse: collapse;
+}
+
+.tableBorder {
+border: 4px rgb(255, 190, 112) solid;
+border-radius: 10px;
+text-align: center;
+}
+
+.groove {
+border: groove 5px;
+}
+
+.maruitable {
+border: solid 4px #FFD700;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+}
+
+.つめる {
+font-size: 13px;
+}
