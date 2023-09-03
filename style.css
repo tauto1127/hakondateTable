@@ -1,6 +1,7 @@
 * {
 font-family: "RoundedMplus1c-Light";
 text-align: center;
+color: rgb(55,55,55);
 }
 
 p,
@@ -103,4 +104,7 @@ height       : 15px;
 }
 .tansuiColor{
     background-color: rgb(229, 238, 221);
+}
+.graphFormulaRight{
+	text-align: start;
 }
