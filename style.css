@@ -81,14 +81,14 @@ height       : 15px;
     background-color: rgb(255, 190, 112);
 }
 .nutTable{
-    border-bottom: solid 1.5px rgb(255, 190, 112);
+    /* border-bottom: solid 1.5px rgb(255, 190, 112); */
 }
 .tableLabel{
     margin-left: 50px;
 }
 .eneColor{
     background-color: white;
-    border: solid 1px black;
+    border: solid 0.1px black;
 }
 .tanpakuColor{
     background-color: rgb(235, 202, 212);
