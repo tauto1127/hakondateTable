@@ -1,0 +1,60 @@
+<html>
+	<body>
+		<p>あいうえお</p>
+		<table class="table">
+  <tbody>
+    <tr>
+      <th>th</th>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+    </tr>
+    <tr>
+      <th>th</th>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+    </tr>
+    <tr>
+      <th>th</th>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+      <td>td</td>
+    </tr>
+  </tbody>
+</table>
+	</body>
+</html>
+<style>
+
+.table {
+  border: 2px solid blue;
+  border-collapse: separate;/*collapseから変更*/
+  border-spacing: 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.table tbody th,
+.table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid red;/*一括指定せず、border-bottomのみ*/
+}
+
+.table tbody th {
+  background-color: #48b9a8;
+  color: #fff;
+}
+
+.table tbody td {
+  border-left: 1px solid #687370;
+}
+
+.table tbody tr:last-child th,
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+</style>
