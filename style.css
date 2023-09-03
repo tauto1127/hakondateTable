@@ -7,9 +7,18 @@ p,
 div {
 display: inline-block;
 }
-
+td th{
+	border-width: 0px;
+}
+tr{
+	width: 100%;
+}
+.table{
+	border-collapse: collapse;
+}
 .energy {
 background-color: white;
+/* border-collapse: blue; */
 }
 
 .proteinTr {
@@ -32,25 +41,19 @@ background-color: rgb(249, 230, 217);
 background-color: rgb(228, 239, 221);
 }
 
-table {
-border-collapse: collapse;
-}
 
 .tableBorder {
 border: 4px rgb(255, 190, 112) solid;
 border-radius: 10px;
 text-align: center;
+/* border-collapse: separate; */
+ box-sizing: border-box;
+ overflow: hidden;
+
 }
 
 .groove {
 border: groove 5px;
-}
-
-.maruitable {
-border: solid 4px #FFD700;
-border-radius: 10px;
-padding: 10px;
-text-align: center;
 }
 
 .つめる {
